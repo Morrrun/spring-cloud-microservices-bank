@@ -5,12 +5,12 @@ spring:
     hibernate:
       ddl-auto: create
     properties:
-      datasource:
-        platform: postgres
-        url: jdbc:postgresql://localhost:5432/bill_service_database
-        username: postgres
-        password: root
-        driver-class-name: org.postgresql.Driver
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/bill_service_database
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
 
 server:
   servlet:

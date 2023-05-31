@@ -26,6 +26,7 @@ public class BillServiceImpl implements BillService {
 
         Bill bill = Bill.builder()
                 .billId(accountId)
+                .accountId(accountId)
                 .amount(amount)
                 .isDefault(isDefault)
                 .creationDate(OffsetDateTime.now())
